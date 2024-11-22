@@ -1,0 +1,6 @@
+SELECT TOP (1000) [location]
+      ,[date]
+      ,[population]
+      ,[new_vaccinations]
+      ,[cumulative_vaccinations]
+  FROM [ha].[dbo].[PPP]
